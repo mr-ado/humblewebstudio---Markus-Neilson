@@ -1,0 +1,366 @@
+/******* PAGE TEXT ELEMENTS *******/
+
+* {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	color: #B3B3B3;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: #b3b3b3;
+	text-decoration: none;
+}
+a:visited {
+	color: #b3b3b3;
+	text-decoration: none;
+}
+a:hover {
+	color: #fdfdfd;
+	text-decoration: none;
+}
+a:active {
+	color: #fdfdfd;
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+	list-style-image: none;
+}
+
+/******* BROWSER SIZING ANCHOR *******/
+
+html, body {
+	height: 100%;
+}
+
+/******* HEADER ELEMENTS *******/
+
+.header {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	height: 50px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgb(37, 37, 37);
+	-webkit-box-shadow: 0 10px 6px -6px #313131;
+	-moz-box-shadow: 0 10px 6px -6px #313131;
+	box-shadow: 0 10px 6px -6px #313131;
+}
+
+.logoheader {
+	min-width: 300px;
+	min-height: 152px;
+	top: auto;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	background-color: rgb(37, 37, 37);
+	z-index: 100;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	-webkit-box-shadow: 0 10px 6px -6px #313131;
+	-moz-box-shadow: 0 10px 6px -6px #313131;
+	box-shadow: 0 10px 6px -6px #313131;
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-box-flex: 0;
+	-moz-box-flex: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+}
+
+/******* BODY CONTACT ELEMENTS *******/
+
+section {
+	padding: 0;
+	position: relative;
+	display: block;
+	height:inherit;
+}
+
+.push {
+	padding: 120px 0 0 0;
+}
+
+.boxes {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: reverse;
+	-moz-box-direction: reverse;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+	-webkit-flex-wrap: wrap-reverse;
+	-ms-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 750px;
+	min-width: 330px;
+	-webkit-padding-start: 0;
+	-webkit-margin-before: 5%;
+	-webkit-margin-after: 1%;
+}
+
+.email_form, .contact_details {
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-box-flex: 0;
+	-moz-box-flex: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+	min-width: 301px;
+	min-height: 25em;
+	padding: 3%;
+	margin: 1%;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: rgba(37, 37, 37, .8);
+}
+/* omitted as requested
+.email_form {
+	min-height: inherit;
+}
+*/
+/***** CONTACT FORM SPECIFIC ****/
+
+h1 {
+	margin-top: -.1em;
+	font-size: 2.4em;
+	font-weight: 100;
+}
+
+input, textarea {
+	padding: .3em;
+	margin: .5em;
+	width: 90%;
+	color: black;
+	background-color: rgba(255,255,255,.7);
+	border: none;
+	text-transform: none;
+	font-weight:500;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	box-shadow: rgba(0,0,0,0.1) inline 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0,0.1) inline 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) inline 0px 0px 8px;
+}
+
+textarea {
+	min-height: 9em;
+	max-width: 90%;
+	line height: .3em;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus, {
+	border-color: black;
+	box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+}
+
+.submit input {
+	background-color: black;
+	color: #B3B3B3;
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+
+	width: inherit;
+		
+	margin: -.5em 0 -2em 7em;
+	padding: .3em 5%;
+	
+	box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+}
+
+input::-webkit-input-placeholder {
+	color: #8d8d8d;
+	text-transform: uppercase;
+}
+input::-moz-placeholder {
+	color: #8d8d8d;
+	text-transform: uppercase;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+	color: #8d8d8d;
+	text-transform: uppercase;
+}
+input:-ms-input-placeholder { 
+	color: #8d8d8d;
+	text-transform: uppercase;
+}
+
+
+
+
+/******* FOOTER ELEMENTS *******/
+
+footer {
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	vertical-align:bottom;
+	margin-top: -2em;
+	padding: 0;
+}
+.footer {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap-reverse;
+	-ms-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+	-webkit-box-align: baseline;
+	-moz-box-align: baseline;
+	-webkit-align-items: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+	background-color: rgb(37, 37, 37);
+	-webkit-box-shadow: 0 -10px 6px -6px #313131;
+	-moz-box-shadow: 0 -10px 6px -6px #313131;
+	box-shadow: 0 -10px 6px -6px #313131;
+}
+
+.menu_facebook, .menu_contact {
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-box-flex: 0;
+	-moz-box-flex: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+}
+
+.menu_facebook {
+	border: .11em solid #B3B3B3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-transform: lowercase;
+	font-size: 1.2em;
+	margin: .8em 2em .8em 0;
+	padding: 0 .13em 0 .45em;
+	font-weight: 500;
+}
+	/* ??????????????????????
+	 * 
+	 * omitted contact button 
+	 * 
+	 * ??????????????????????*/
+.menu_contact {
+	margin: .8em 0em .8em 2em;
+	padding: 0 0 -.3em 0;
+	font-size: 1.4em;
+	font-weight: 500;
+}
+.menu_contact > a:link {
+	color: rgb(37, 37, 37);
+	text-decoration: none;
+}
+.menu_contact > a:visited {
+	color: rgb(37, 37, 37);
+	text-decoration: none;
+}
+.menu_contact > a:hover {
+	color: rgb(37, 37, 37);
+	text-decoration: none;
+}
+.menu_contact > a:active {
+	color: rgb(37, 37, 37);
+	text-decoration: none; {
+	/* omitted contact button */
